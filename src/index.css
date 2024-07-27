@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #111111;
+    --bg-color1: #161616;
+    --color: #fff;
+    --primary: #3DCFD3;
+    --box-shadow: 0 4px 6px rgba(255, 255, 255, 0.7);
+    --border: yellow;
+  }
+.dark-theme {
+    --bg-color: #fff;
+    --bg-color1: #E7EAE3;
+    --color: black;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --primary: #3DCFD3;
+    --border: black;
+}
+  

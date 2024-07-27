@@ -1,0 +1,73 @@
+
+.skills {
+    background-color: var(--bg-color1);
+    width: 100%;
+}
+
+.skills .items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.skills h1 {
+  text-align: center;
+  color: var(--primary);
+  padding: 1rem;
+}
+
+
+.skills .items .item {
+  width: calc(33.33%);
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+
+}
+.skills .items .item{
+    background-color: var(--bg-color1);
+    color: var(--color);
+    border: 1px solid var(--border);
+    transition: all 2s ease;
+}
+.skills .items .item:hover{
+  border: none;
+  box-shadow: inset 1px 1px .1px 1px var(--color), inset -1px -1px .1px 1px var(--color), inset -1px 1px .1px 1px var(--color), inset 1px -1px .1px 1px var(--color);
+  transform: scale(0.9);
+}
+
+.skills .items .item i {
+  font-size: 4.5rem;
+  padding: .3rem;
+  margin: .3rem;
+}
+
+/* media query */
+
+@media (max-width: 480px) {
+  .skills {
+    width: 100%;
+  }
+  .skills .items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .skills .items .item{
+    width: 60%;
+  }
+  .skills .items .item i {
+    width: 80%;
+    padding: 1rem;
+    text-align: center;
+  }
+}
+
+
+
+
+

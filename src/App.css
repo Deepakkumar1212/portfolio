@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --background-color: #111111;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --primary: #3dcfd3;
+  --dark: #161616;
+  --pure: #ffffff;
+  --ternary: #898989;
+  --light: #f2f2f2;
+  --secondary: #070606;
+}
